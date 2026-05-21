@@ -1,3 +1,6 @@
 {
-  "outputDirectory": "iniciantes-app/build"
+  "outputDirectory": "iniciantes-app/build",
+    "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
