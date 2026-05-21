@@ -23,7 +23,7 @@ const MaterialsPage: React.FC = () => {
             </svg>
             <h2 className="text-2xl font-bold text-gray-700 mb-2">Em construção</h2>
             <p className="text-gray-500 text-center max-w-md">
-              A área de materiais e exercícios está sendo preparada para você! Em breve, disponibilizaremos conteúdos exclusivos para aprofundar seus conhecimentos em metodologias ágeis.
+              A área de materiais e exercícios está sendo preparada para você! Em breve, disponibilizaremos conteúdos exclusivos para aprofundar seus conhecimentos.
             </p>
           </div>
         </section>
