@@ -1,0 +1,11 @@
+{
+  "name": "projeto-iniciantes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cd iniciantes-app && npm start",
+    "build": "cd iniciantes-app && npm run build",
+    "test": "cd iniciantes-app && npm test",
+    "install-app": "cd iniciantes-app && npm install"
+  }
+}
