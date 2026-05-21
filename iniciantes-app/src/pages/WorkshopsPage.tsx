@@ -7,7 +7,6 @@ import WorkshopForm from '../components/WorkshopForm';
 
 const WorkshopsPage: React.FC = () => {
   const [showForm, setShowForm] = useState(false);
-  const [selectedWorkshop, setSelectedWorkshop] = useState<string | null>(null);
 
   const workshops = [
     {
@@ -40,8 +39,7 @@ const WorkshopsPage: React.FC = () => {
     }
   ];
 
-  const handleWorkshopClick = (workshopTitle: string) => {
-    setSelectedWorkshop(workshopTitle);
+  const handleWorkshopClick = () => {
     setShowForm(true);
     setTimeout(() => {
       const formElement = document.getElementById('workshop-form');
@@ -91,7 +89,7 @@ const WorkshopsPage: React.FC = () => {
                       <span className="text-gray-700">Vagas: {workshop.spots}</span>
                     </div>
                     <button 
-                      onClick={() => handleWorkshopClick(workshop.title)}
+                      onClick={() => handleWorkshopClick()}
                       className="w-full py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                       aria-label={`Inscrever-se no workshop ${workshop.title}`}
                     >
