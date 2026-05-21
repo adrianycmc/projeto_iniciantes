@@ -6,6 +6,7 @@
     "start": "cd iniciantes-app && npm start",
     "build": "cd iniciantes-app && npm run build",
     "test": "cd iniciantes-app && npm test",
-    "install-app": "cd iniciantes-app && npm install"
+    "install-app": "cd iniciantes-app && npm install",
+    "postinstall": "cd iniciantes-app && npm install"
   }
 }
